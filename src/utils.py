@@ -79,7 +79,7 @@ def summarization(llm, reduce_llm, map_prompt_template, map_combine_template, te
     return result["output_text"]
 
 ###############
-# Image-to-Text
+# image-to-text
 ###############
 
 def encode_image_to_base64(image):
